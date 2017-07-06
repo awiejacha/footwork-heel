@@ -1,0 +1,24 @@
+{
+  "name": "footwork",
+  "version": "0.0.1",
+  "description": "Nothing special so far.",
+  "main": "app/main.js",
+  "dependencies": {
+    "koa": "^2.2.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.2.0",
+    "mongoose": "^4.10.6",
+    "node-ipc": "^9.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "jshint": "^2.9.4"
+  },
+  "scripts": {
+    "start": "node app/main",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adrian Wiejacha",
+  "license": "ISC"
+}
